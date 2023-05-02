@@ -13,7 +13,6 @@ header {
   width: 100%;
   height: 100vh;
   background: url(./imgs/image.png);
-  /* background-color: black; */
   background-size: 100%;
   margin: 0 auto;
   display: flex;
@@ -188,7 +187,6 @@ header .items .item .prices {
 }
 
 header .items .item .prices .price1 {
-  /* width: 90px; */
   height: 30px;
   font-family: 'Segoe UI';
   font-style: normal;
@@ -530,9 +528,8 @@ main .topItem .orderrr {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
   background: #fff url('./imgs/yt.png');
-  /* margin-left: 20px; */
+  background-position: center;
   cursor: pointer;
 }
 
@@ -543,8 +540,9 @@ main .topItem .orderrr {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
   background: #fff url('./imgs/icon--fb.png');
+  background-position: center;
+  background-position: center;
   margin-left: 20px;
   cursor: pointer;
 }
@@ -556,9 +554,9 @@ main .topItem .orderrr {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* text-align: center; */
   margin-left: 20px;
   background: #fff url('./imgs/inst.png');
+  background-position: center;
   cursor: pointer;
 }
 
